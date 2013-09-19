@@ -23,8 +23,9 @@ Use
   3. Move into the root `cd /path/to/root`
   4. **IMPORTANT**: To allow the Propel Fixtures to load, because they do not support classes,
      you need to edit the schema in the FOSUserBundle. Go to `/root/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Resources/config/propel/schema.xml` and add `last_login` after `password_requested_at` on line 37. (I know this is a hack; c'mon, I only worked for a couple hours on it)
-  4. Build the SQL: `php app/console propel:sql:build`
-  5. Create Database: `php app/console propel:database:create`
-  6. Insert the tables: `php app/console propel:sql:insert --force`
-  7. Install fixtures: `php app/console propel:fixtures:load`
-  8. Refer to email from Dylan about usernames and passwords for various roles.
+  5. Build the models: `php app/console propel:build`
+  6. Build the SQL: `php app/console propel:sql:build`
+  7. Create Database: `php app/console propel:database:create`
+  8. Insert the tables: `php app/console propel:sql:insert --force`
+  9. Install fixtures: `php app/console propel:fixtures:load`
+  10. Refer to email from Dylan about usernames and passwords for various roles.

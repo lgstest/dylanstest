@@ -1,0 +1,59 @@
+{
+    "name": "lgstest/dylanstest",
+    "license": "MIT",
+    "type": "project",
+    "description": "A test project assigned to Dylan Johnson",
+    "autoload": {
+        "psr-0": { "": "src/" }
+    },
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/symfony": "*",
+        "twig/extensions": "*",
+        "symfony/assetic-bundle": "*",
+        "symfony/swiftmailer-bundle": "*",
+        "symfony/monolog-bundle": "*",
+        "sensio/distribution-bundle": "*",
+        "sensio/framework-extra-bundle": "*",
+        "sensio/generator-bundle": "*",
+        "incenteev/composer-parameter-handler": "~2.0",
+        "propel/propel-bundle": "*",
+        "knplabs/knp-menu-bundle":"dev-master",
+        "knplabs/knp-menu": "2.0.*@dev",
+        "willdurand/propel-typehintable-behavior": "*",
+        "friendsofsymfony/user-bundle": "*",
+        "psliwa/pdf-bundle": "dev-master",
+        "liuggio/excelbundle": ">=1.0.4",
+        "afarkas/html5shiv": "dev-master"
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile"
+        ],
+        "post-update-cmd": [
+            "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile"
+        ]
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "minimum-stability": "stable",
+    "extra": {
+        "symfony-app-dir": "app",
+        "symfony-web-dir": "public_html",
+        "incenteev-parameters": {
+            "file": "app/config/parameters.yml"
+        },
+        "branch-alias": {
+            "dev-master": "2.3-dev"
+        }
+    }
+}

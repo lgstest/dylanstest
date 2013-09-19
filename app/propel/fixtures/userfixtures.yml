@@ -1,0 +1,171 @@
+FOS\UserBundle\Propel\User:
+    SuperAdminUser:
+        username: superadmin
+        username_canonical: superadmin
+        email: lgstestingacct@gmail.com
+        email_canonical: lgstestingacct@gmail.com
+        enabled: 1
+        salt: gl083gt67dsgoo8g8sc08kss8o8s4wg
+        password: sRNQxC4Y3MeN5jibgUBy5Sgto1XMeFSeEhmZ+UQg70FX2gJGj8+JBqolraC+bmi+968jBxkX60l2Y83RBCal9A==
+        last_login: NULL
+        locked: 0
+        expired: 0
+        expires_at: NULL
+        confirmation_token: NULL
+        password_requested_at: NULL
+        credentials_expired: 0
+        credentials_expire_at: NULL
+        roles: [ "ROLE_USER", "ROLE_SUPER_ADMIN" ]
+    StudentUser:
+        username: lgsstudent
+        username_canonical: lgsstudent
+        email: lgsstudent@gmail.com
+        email_canonical: lgsstudent@gmail.com
+        enabled: 1
+        salt: bzl2hy09ie8k4go4ccgwswsg8gk440s
+        password: wDxx8R8tT79yajZ9+NV+eSRt0J7iBRK+wHT+zaJ2OjFbp5rnjdePc0N7O0nJ7mUznAb8zmrKbvfzCBR8rMnBpg==
+        last_login: NULL
+        locked: 0
+        expired: 0
+        expires_at: NULL
+        confirmation_token: NULL
+        password_requested_at: NULL
+        credentials_expired: 0
+        credentials_expire_at: NULL
+        roles: [ ROLE_USER, ROLE_STUDENT ]
+    AdminUser:
+        username: lgsadmin
+        username_canonical: lgsadmin
+        email: lgsadmin@gmail.com
+        email_canonical: lgsadmin@gmail.com
+        enabled: 1
+        salt: pj3t0uje9y8k0g0kko4kwckgg4w4wgw
+        password: fPjyTSnAJioG/6FsyXR+NvJgQrd+fphoiB8W3hNWHX0hqY9PHyhGk/fqE7AOIExjUSkgOmWBxD+sp1i3zICnZA==
+        last_login: NULL
+        locked: 0
+        expired: 0
+        expires_at: NULL
+        confirmation_token: NULL
+        password_requested_at: NULL
+        credentials_expired: 0
+        credentials_expire_at: NULL
+        roles: [ ROLE_USER, ROLE_ADMIN ]
+    TeacherUser:
+        username: lgsteacher
+        username_canonical: lgsteacher
+        email: lgsteacher@gmail.com
+        email_canonical: lgsteacher@gmail.com
+        enabled: 1
+        salt: gnt35gumvsgs0g0w0sgcsk88gs4cw0
+        password: THyVsLLwViKhgAB33ZN4lI5eTPpzMtWi8FqDrXwWOMvHPrZAMxS39WaCvx+h2BXzSuvRoPd9oeVd0eXHhhvGkg==
+        last_login: NULL
+        locked: 0
+        expired: 0
+        expires_at: NULL
+        confirmation_token: NULL
+        password_requested_at: NULL
+        credentials_expired: 0
+        credentials_expire_at: NULL
+        roles: [ ROLE_USER, ROLE_TEACHER ]
+    OtherUser:
+        username: lgsother
+        username_canonical: lgsother
+        email: lgsother@gmail.com
+        email_canonical: lgsother@gmail.com
+        enabled: 1
+        salt: 2j4npf9nn544ssw0ksg080swwook0cw
+        password: 9y6sSFqysc9liHik1hs52pY4CfHF8Z+E0uMgvshHXGU6H/WkiKsvwsjtnX6tbKc5Y1uIQaZiC4T1yZJmsSwTqg==
+        last_login: NULL
+        locked: 0
+        expired: 0
+        expires_at: NULL
+        confirmation_token: NULL
+        password_requested_at: NULL
+        credentials_expired: 0
+        credentials_expire_at: NULL
+        roles: [ ROLE_USER, ROLE_OTHER ]
+    UserUser:
+        username: lgsuser
+        username_canonical: lgsuser
+        email: lgsuser@gmail.com
+        email_canonical: lgsuser@gmail.com
+        enabled: 1
+        salt: 1puay57tqj34gcwkgw0w080ww884g4s
+        password: r4Kdtq18BQo5zDW6mtZn2DrffK1Bqqnw4g/jevBYmHezjZ9vqJXHg0MHDG39sXIB9uIrnp20hQeA5wETdAIL5g==
+        last_login: NULL
+        locked: 0
+        expired: 0
+        expires_at: NULL
+        confirmation_token: NULL
+        password_requested_at: NULL
+        credentials_expired: 0
+        credentials_expire_at: NULL
+        roles: [ ROLE_USER ]
+    ParentUser:
+        username: lgsparent
+        username_canonical: lgsparent
+        email: lgsparent@gmail.com
+        email_canonical: lgsparent@gmail.com
+        enabled: 1
+        salt: rcx3dp9rqjkg8k80k8wcws0ggws0ckk
+        password: dVFRbFk9l8kng6fwb4MGG4c9vVTQazkGkQPcupQc9xpRdSoDsC1Ab2eN37BtKiyZ0G6SS6wPYrast0CIr5hYzQ==
+        last_login: NULL
+        locked: 0
+        expired: 0
+        expires_at: NULL
+        confirmation_token: NULL
+        password_requested_at: NULL
+        credentials_expired: 0
+        credentials_expire_at: NULL
+        roles: [ ROLE_USER, ROLE_PARENT ]
+    CounselorUser:
+        username: lgscounselor
+        username_canonical: lgscounselor
+        email: lgscounselor@gmail.com
+        email_canonical: lgscounselor@gmail.com
+        enabled: 1
+        salt: j7kzvrri6rwosswo4sgo4kkskks4g8g
+        password: KlaVsZ29usEwk7yJl50IKBFRqi+z62ncNXFiqnpnX8nP3VbOvJ9iL+RFkuom/CtjcmuvvHpbZNRLPFrvvJr3Tw==
+        last_login: NULL
+        locked: 0
+        expired: 0
+        expires_at: NULL
+        confirmation_token: NULL
+        password_requested_at: NULL
+        credentials_expired: 0
+        credentials_expire_at: NULL
+        roles: [ ROLE_USER, ROLE_COUNSELOR ]
+    DistrictUser:
+        username: lgsdistrict
+        username_canonical: lgsdistrict
+        email: lgsdistrict@gmail.com
+        email_canonical: lgsdistrict@gmail.com
+        enabled: 1
+        salt: 4qt76ja5vsw0ksgskw4c4kkggo0gkcw
+        password: O+ghq60ofaRRmimRxQObferJ66Aik9pyQULgsI8jIKrqaP1jkn38RAocHpzM4H87+AO9eefRCK1Y6NqRIPbCwA==
+        last_login: NULL
+        locked: 0
+        expired: 0
+        expires_at: NULL
+        confirmation_token: NULL
+        password_requested_at: NULL
+        credentials_expired: 0
+        credentials_expire_at: NULL
+        roles: [ ROLE_USER, ROLE_DISTRICT ]
+    LgsUser:
+        username: lgslgs
+        username_canonical: lgslgs
+        email: lgslgs@gmail.com
+        email_canonical: lgslgs@gmail.com
+        enabled: 1
+        salt: p1lm400t9zkcoocc4ss8wgw80gs0osk
+        password: cH3VJYZbCN6etiMJxC5b8HT864l5qJ04UKCMhZ9F7TSpBHQAiptDeNlCv6+GZAdqQGZwAQnn42UlEa1UMLrSfw==
+        last_login: NULL
+        locked: 0
+        expired: 0
+        expires_at: NULL
+        confirmation_token: NULL
+        password_requested_at: NULL
+        credentials_expired: 0
+        credentials_expire_at: NULL
+        roles: [ ROLE_USER, ROLE_LGS ]

@@ -1,0 +1,39 @@
+acme_user_role_homepage:
+    pattern:  /user
+    defaults: { _controller: AcmeUserBundle:Default:user, name: someone }
+
+acme_lgs_role_homepage:
+    pattern:  /lgs
+    defaults: { _controller: AcmeUserBundle:Default:lgs, name: someone }
+    
+acme_super_admin_role_homepage:
+    pattern:  /superadmin
+    defaults: { _controller: AcmeUserBundle:Default:superAdmin, name: someone }
+    
+acme_admin_role_homepage:
+    pattern:  /admin
+    defaults: { _controller: AcmeUserBundle:Default:admin, name: someone }
+
+acme_parent_role_homepage:
+    pattern:  /parent
+    defaults: { _controller: AcmeUserBundle:Default:parent, name: someone }
+    
+acme_student_role_homepage:
+    pattern:  /student
+    defaults: { _controller: AcmeUserBundle:Default:student, name: someone }
+    
+acme_counselor_role_homepage:
+    pattern:  /counselor
+    defaults: { _controller: AcmeUserBundle:Default:counselor, name: someone }
+    
+acme_district_role_homepage:
+    pattern:  /district
+    defaults: { _controller: AcmeUserBundle:Default:district, name: someone }
+    
+acme_other_role_homepage:
+    pattern:  /other
+    defaults: { _controller: AcmeUserBundle:Default:other, name: someone }
+    
+acme_teacher_role_homepage:
+    pattern:  /teacher
+    defaults: { _controller: AcmeUserBundle:Default:teacher, name: someone }

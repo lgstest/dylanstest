@@ -11,7 +11,7 @@ The following requirements should be met by this repository:
 Installation 
 -----
   
-  1. Packagist/Composer: this project can be installed by running `php composer.phar create-project lgstest/dylanstest /path/to/root`
+  1. Packagist/Composer: this project can be installed by running `php composer.phar create-project -s dev lgstest/dylanstest /path/to/root`
   2. Download: simply click the download button at the top of the repository. 
   
 Use
